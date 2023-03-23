@@ -1,0 +1,105 @@
+body {
+    background-color: black;
+
+}
+
+
+.title {
+    color: rgb(181, 45, 159);
+    text-align: center;
+}
+
+.wp-feedback {
+    background-color: white;
+    width: 600px;
+    height: 200px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+.send-input {
+    width: 250px;
+    height: 30px;
+    outline: none;
+    border: none;
+
+}
+
+.send-btn {
+    width: 50px;
+    height: 30px;
+}
+
+.wp-send {
+    margin-top: 30px;
+    border: 1px solid rgb(181, 45, 159);
+    padding: 5px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.radio {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid rgb(181, 45, 159);
+    margin: 5px;
+}
+
+.table {
+    width: 600px;
+    height: 30px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 10px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.coin {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(181, 45, 159);
+    color: white;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    line-height: 30px;
+    text-align: center;
+
+}
+
+.feed {
+    margin-left: 20px;
+    padding: 0;
+}
+
+.input-wp {
+    display: flex;
+}
+
+.delete {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.edit {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+}

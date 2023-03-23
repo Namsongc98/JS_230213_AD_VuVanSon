@@ -1,0 +1,57 @@
+.container{
+    border: 1px solid rgb(40, 154, 230);
+}
+.hearder{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(101, 101, 237);
+}
+.main{
+   min-height: 100px;
+    
+    
+}
+.players-wp{
+    margin: 7px;
+}
+.numer{
+    margin: 2px;
+    text-align: center;
+}
+.stopwatch{
+    margin: 5px;
+}
+.wp-players{
+    display: flex;
+}
+.wp-poin{
+    display: flex;
+    justify-content: space-between;
+ align-items: center;
+    width: 100px;
+}
+.container{
+   width: 400px;
+
+}
+.button{
+    width: 20px;
+    height: 20px;
+    margin: 15px ;
+    
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+background-color:rgb(101, 101, 237) ;
+}
+.plus-players{
+    height: 20px
+    
+}
+.add{
+    display: flex;
+    justify-content: space-between;
+}
